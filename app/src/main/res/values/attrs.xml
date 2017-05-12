@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--视频录制控件-->
+    <declare-styleable name="VideoRecordView">
+        <!-- 一次拍摄最长时间ms -->
+        <attr name="record_max_time" format="integer"/>
+        <!-- 一次拍摄最短时间ms -->
+        <attr name="record_min_time" format="integer"/>
+        <!--圆环颜色-->
+        <attr name="circle_color" format="color"/>
+        <!--进度环颜色-->
+        <attr name="progress_color" format="color"/>
+        <!--圆环宽度-->
+        <attr name="circle_width" format="dimension"/>
+        <!--时间文字颜色-->
+        <attr name="time_color" format="color"/>
+        <!--时间文字大小-->
+        <attr name="time_size" format="dimension"/>
+        <!--是否显示时间-->
+        <attr name="show_time" format="boolean"/>
+    </declare-styleable>
+</resources>
